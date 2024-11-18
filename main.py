@@ -271,19 +271,3 @@ def create_ui():
     root.mainloop()
 
 create_ui()
-# print (g)
-start = input("Choose starting city: ")
-# for i in g.edges:
-#     _from = i.get_start()
-#     if _from == start:
-#         destination = input("Choose a destination or leave blank for all destinations: ")
-#         for j in g.edges:
-#             _to = j.get_destination()
-#             if _to == destination:
-#                 distances, previous_nodes = g.dijkstra(start)  # start, destination
-#                 shortest_path = g.get_shortest_path(previous_nodes, start, destination)
-#                 quit()
-#         print("The city you entered does not exist. Check for capitals and spaces.")
-#         quit()
-# print("The city you entered does not exist. Check for capitals and spaces.")
-# quit()
